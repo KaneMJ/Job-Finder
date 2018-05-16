@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1000px){
+    .heroText {
+        font-size:10vw;
+        margin-bottom: 28%;
+        /* margin: 15% auto; */
+    }
+    .headerForms{
+        grid-column: 4/10;
+    }
+    .forms {
+        grid-column: 3/9;
+        grid-row: 5/9;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .jobTitle {
+        grid-column: 1/8;
+        grid-row: 2/4;
+        border: 2px solid black;
+    }
+    .jobLocation {
+        grid-column: 1/8;
+        grid-row: 5/7;
+    }
+    .submitSearch{
+        grid-row: 8/8;
+    }
+}
+@media only screen and (max-width: 900px){
+    .heroText {
+        font-size:10vw;
+        margin-bottom: 33%;
+        /* margin: 15% auto; */
+    }
+    .headerForms{
+        grid-column: 4/10;
+    }
+}
+@media only screen and (max-width: 800px){
+    .heroText {
+        font-size:10vw;
+        margin-bottom: 46%;
+        /* margin: 15% auto; */
+    }
+    .headerForms{
+        grid-column: 4/10;
+    }
+}
+@media only screen and (max-width: 700px){
+    .heroText {
+        font-size:15vw;
+        margin-bottom: 55%;
+        /* margin: 15% auto; */
+    }
+}
+@media(max-width:575.98px){
+    .spinner{
+        color:gray;
+    }
+    .modalBox{
+    z-index:999;
+    grid-column: 2/10;
+    }
+    .mobileList{
+        display:block;
+        
+    }
+    .menuSpinner{
+        display:none;
+    }
+    .mobileList p{
+        text-align:center;
+    }
+    .sidebarHide{
+        transform:translateY(100%)
+    }
+    .mapWithoutList{
+        transform:translateX(0);
+        width:100vw;
+    }
+    .mapWithoutInfo{
+        transform:translateX(0);
+        width:100vw;
+    }
+    .sidebar{
+        grid-column: 1/11;
+    }
+    .jobStats{
+        grid-column: 1/11;
+    }
+    .hideList{
+        cursor: pointer;
+        color: #a2ffff;
+        display: block;
+        font-weight: bold;
+    }
+  
+    .heroText {
+        font-size:12vw;
+        margin-bottom: 58%;
+    }
+    /* .headerJobTitleInput, .headerJobLocationInput{
+        width: 25vw;
+        height: 100%;
+        box-sizing:border-box;
+        grid-column: 1/11;
+    } */
+    .brand{
+        display:none;
+    }  
+    .headerForms{
+        grid-column: 3/11;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .heroText {
+        font-size:15vw;
+        margin-bottom: 72%;
+        /* margin: 15% auto; */
+    }
+    .jobTitle {
+        grid-row: 1/3;
+    }
+    .jobLocation {
+        grid-row: 4/6;
+    }
+    .headerForms{
+        grid-column: 2/10;
+    }  
+}
+@media only screen and (max-width: 450px){
+    .heroText {
+        font-size:15vw;
+        margin-bottom: 87%;
+        /* margin: 15% auto; */
+    }
+    .headerForms{
+        grid-column: 2/10;
+    }  
+}
+@media only screen and (max-width: 380px){
+    .heroText {
+        margin-bottom: 105%;
+        font-size:15vw;
+        /* margin: 15% auto; */
+    }
+    .headerForms{
+        grid-column: 1/10;
+    }  
+}

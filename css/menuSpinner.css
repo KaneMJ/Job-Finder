@@ -1,0 +1,120 @@
+.menuSpinner{
+    position:absolute;
+    margin:auto;
+    bottom:-15vh;
+    left:0;
+    right: 0;
+    border-radius:50%;
+    height: 30vh;
+    width: 30vh;
+    z-index:15;
+}
+.inner{
+    position:absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    width: 5vh;
+    background-color: darkslategray;
+    z-index:5;
+    border-radius:50%;
+    border:.5px solid black;
+    cursor: pointer;
+    transition: .5s;
+}
+.inner:hover{
+    transform:scale(1.5);
+}
+
+.outer{
+    position:absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border:.5px solid black;
+    height: 30vh;
+    width: 30vh;
+    border-radius:50%;
+    z-index:4;
+    overflow:hidden;
+    transition: ease-in-out border 2s;
+}
+.hideBorder{
+    border:none;
+}
+
+.item{
+    position:absolute;
+    margin:auto;
+    top:50%;
+    left:50%;
+    border:.25px solid black;
+    height: 100%;
+    width: 100%;
+    transform-origin:top left;
+    background-color:darkslategrey;
+
+}
+.item1{
+    transform:rotate(180deg)skew(45deg);
+    transition: ease-in-out .5s;
+}
+.item2{
+    transform:rotate(225deg)skew(45deg);
+    transition: ease-in-out .5s;
+}
+.item3{
+    transform:rotate(270deg)skew(45deg);
+    transition: ease-in-out .5s;
+}
+.item4{
+    transform:rotate(315deg)skew(45deg);
+    transition: ease-in-out .5s;
+}
+
+.item>p{
+    font-size: 2.2vh
+}
+
+.item1>p{
+    margin-left:2vh;
+    display: inline-block;
+    transform: rotate(180deg)skew(-45deg);
+}
+.item4>p{
+    display: inline-block;
+    transform:rotate(0deg)skew(-45deg);
+    margin-left:2vh;
+}
+.spinItem1{
+    transform:rotate(0deg)skew(45deg);
+}
+.spinItem2{
+    transform:rotate(45deg)skew(45deg);
+}
+.spinItem3{
+    transform:rotate(450deg)skew(45deg);
+}
+.spinItem4{
+    transform:rotate(495deg)skew(45deg);
+}
+
+.select{
+    background-color: #944743;
+}
+.inner>svg{
+    position: absolute;
+    margin: auto;
+    top: -40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.toggleDisplay{
+    display:none;
+}
